@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
+    <link rel='stylesheet' href='styles.css' type='text/css'/> 
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src='script.js' type='text/javascript'/></script>
+    <title>Amicable Numbers</title>
+</head>
+<body>
+    <h1>Amicable Numbers</h1>
+
+    <p id="first-text">Determine if two numbers are amicable!</p>
+
+    <p>A pair of numbers are amicable if their factors (excluding themselves) add up to each other. (A factor is a number that divides evenly into another number.)</p>
+
+    <form id="form">
+        <input type="number" id="number1" placeholder="First number...">
+        <input type="number" id="number2" placeholder="Second number...">
+        <input type="button" id="btn" value="CHECK" onclick="amicableNumbers()">
+    </form>
+
+    <div id="result"></div>
+    <div id="number1-factors"></div>
+    <div id="number2-factors"></div>
+</body>
+</html>

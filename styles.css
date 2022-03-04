@@ -1,0 +1,39 @@
+h1 {
+    font-family: Merriweather, Arial, san-serif;
+    color: steelblue;
+    margin-bottom: 35px;
+}
+
+body {
+    font-family: "Open Sans", Arial, san-serif;
+    margin: 35px;
+}
+
+#first-text {
+    font-weight: bolder;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 25%;
+    margin: 30px 0px;
+}
+
+#result {
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+#number1-factors {
+    margin: 5px 0px;
+}
+
+@media (max-width: 700px) {
+    #form {width: 50%;}
+}
+
+@media (max-width: 300px) {
+    #form {width: 100%;}
+}
